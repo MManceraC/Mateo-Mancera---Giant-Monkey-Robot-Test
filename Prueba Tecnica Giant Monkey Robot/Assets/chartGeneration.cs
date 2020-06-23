@@ -7,7 +7,7 @@ using UnityEditor;
 using UnityEngine.SceneManagement;
 
 
-public class testJson : MonoBehaviour {
+public class chartGeneration : MonoBehaviour {
 
     public Text title; //UI gameobject for chart title
     public GameObject gridSpace, cellPrefab, columnPrefab; //ScrollView UI element that will contain the DATA and the prefabs that are going to be instantiated inside of it
